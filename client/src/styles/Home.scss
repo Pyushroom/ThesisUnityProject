@@ -1,0 +1,59 @@
+.home-container {
+    flex:6;
+    margin: 0 auto;
+  
+    .MuiTypography-h6 {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+    }
+  
+    .notification-card {
+      margin-top: 2rem;
+    }
+  
+    .team-card {
+      margin-top: 2rem;
+    }
+  
+    .student-table {
+      margin-top: 1rem;
+  
+      th,
+      td {
+        text-align: center;
+      }
+    }
+  
+    .assignment-table {
+      margin-top: 1rem;
+  
+      th,
+      td {
+        text-align: center;
+      }
+  
+      .completion-progress {
+        position: relative;
+        display: inline-flex;
+  
+        .MuiCircularProgress-root {
+          color: #0077c2;
+          width: 30px;
+          height: 30px;
+          margin-right: 10px;
+        }
+  
+        .MuiTypography-caption {
+          position: absolute;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+        }
+      }
+    }
+  }
+  

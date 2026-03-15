@@ -1,0 +1,51 @@
+.quizzes-container {
+    padding: 16px;
+  
+    .quizzes-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 8px;
+  
+      .quiz-card {
+        width: calc(33.3% - 8px);
+        margin-bottom: 16px;
+        box-shadow:  4px 8px 4px rgba(0, 0, 0, 0.3);
+  
+        @media (max-width: 768px) {
+          width: 100%;
+        }
+  
+        .MuiCardContent-root {
+          padding: 16px;
+        }
+  
+        .MuiTypography-root {
+          margin-bottom: 8px;
+        }
+  
+        .MuiSvgIcon-root {
+          margin-right: 8px;
+        }
+  
+        .MuiIconButton-root {
+          margin-right: 8px;
+        }
+  
+        &:nth-child(3n) {
+          margin-right: 0;
+        }
+      }
+    }
+  
+    .create-button-container {
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 16px;
+  
+      button {
+        margin-left: 16px;
+      }
+    }
+  }
+  
